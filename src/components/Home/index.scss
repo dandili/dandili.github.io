@@ -4,7 +4,7 @@
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 40%;
+    width: 80%;
     max-height: 90%;
   }
 
@@ -13,13 +13,13 @@
     font-size: 56px;
     line-height: 53px;
     margin: 0;
-    font-family: 'Coolvetica';
+    font-family: 'Coolvetica', sans-serif;
     font-weight: 400;
 
     &:before {
       content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      color: #4d88f3;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
@@ -30,7 +30,7 @@
     &:after {
       content: '<h1/>';
       font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      color: #4d88f3;
       font-size: 18px;
       position: absolute;
       margin-top: 18px;
@@ -54,27 +54,27 @@
     margin-top: 20px;
     font-weight: 400;
     font-size: 11px;
-    font-family: sans-serif;
+    font-family: "Helvetica";
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
   }
 
   .flat-button {
-    color: #ffd700;
+    color: #4d88f3;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid #4d88f3;
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
-      background: #ffd700;
+      background: #ffffff;
       color: #333;
     }
   }
