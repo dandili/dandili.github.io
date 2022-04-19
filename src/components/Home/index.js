@@ -9,24 +9,6 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = [' ', 'D','a', 'n', 'i', 'e', 'l', 'e','!']
-  const jobArray = [
-    'A',
-    ' ',
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
 
   useEffect(() => {
     return setTimeout(() => {
@@ -49,24 +31,17 @@ const Home = () => {
               idx={15}
             />
             <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={20}
-            />
-          </h1>
-          <h2>
-            <span style={{ color: '#4d88f3', fontWeight: 'bold' }}>
+            A
+            <span style={{ color: '#4d88f3', fontSize: '56px'}}>
               <Typewriter
                 loop={50}
                 cursor
                 cursorStyle='_'
                 delaySpeed={2000}
-                words={['Web Developer', 'Software Developer', 'Problem Solver']}>
-            </Typewriter>
+                words={[' Web Developer', ' Software Developer', ' Problem Solver']}>
+              </Typewriter>
             </span>
-
-          </h2>
+          </h1>
         </div>
         <Logo/>
       </div>
