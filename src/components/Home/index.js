@@ -4,6 +4,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import Logo from './Logo'
+import * as THREE from 'three';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
