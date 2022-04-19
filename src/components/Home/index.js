@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
 import Loader from "react-loaders";
+import { Typewriter } from 'react-simple-typewriter'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import Logo from './Logo'
@@ -55,8 +55,18 @@ const Home = () => {
               idx={20}
             />
           </h1>
-          <h2 id="text"></h2>
-          <script src="app.js"></script>
+          <h2>
+            <span style={{ color: '#4d88f3', fontWeight: 'bold' }}>
+              <Typewriter
+                loop={50}
+                cursor
+                cursorStyle='_'
+                delaySpeed={2000}
+                words={['Web Developer', 'Software Developer', 'Problem Solver']}>
+            </Typewriter>
+            </span>
+
+          </h2>
         </div>
         <Logo/>
       </div>

@@ -24,7 +24,7 @@ function loop () {
       textDisplay.innerHTML = currentPhrase.join('')
     }
 
-    if (j == phrases[i].length) {
+    if (j === phrases[i].length) {
       isEnd = true
       isDeleting = true
     }
