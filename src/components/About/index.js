@@ -37,7 +37,7 @@ const About = () => {
             to work with the latest technologies on challenging and diverse projects.
           </p>
           <p>
-            Mentorship and career progression are HUGELY important to me. I'm seeking an
+            Mentorship and career progression are strong important to me. I'm seeking an
             opportunity that will look to develop and expand my skillset.
           </p>
           <p align="LEFT">

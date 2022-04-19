@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 .home-page {
+
   .text-zone {
     position: absolute;
     left: 10%;
@@ -13,8 +16,8 @@
     font-size: 56px;
     line-height: 53px;
     margin: 0;
-    font-family: 'Coolvetica', sans-serif;
-    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
 
     &:before {
       content: '<h1>';
@@ -53,8 +56,8 @@
     color: #8d8d8d;
     margin-top: 20px;
     font-weight: 400;
-    font-size: 11px;
-    font-family: "Helvetica";
+    font-size: 14px;
+    font-family: "Quicksand";
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
   }
@@ -62,7 +65,7 @@
   .flat-button {
     color: #4d88f3;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
@@ -72,6 +75,7 @@
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
+    font-family: "Quicksand";
 
     &:hover {
       background: #ffffff;
