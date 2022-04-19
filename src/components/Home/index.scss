@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+
 .home-page {
+
   .text-zone {
     position: absolute;
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 40%;
+    width: 80%;
     max-height: 90%;
   }
 
@@ -13,13 +17,14 @@
     font-size: 56px;
     line-height: 53px;
     margin: 0;
-    font-family: 'Coolvetica';
-    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 
     &:before {
+      animation: fadeIn 1s 1.7s backwards;
       content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      color: #4d88f3;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
@@ -30,7 +35,7 @@
     &:after {
       content: '<h1/>';
       font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      color: #4d88f3;
       font-size: 18px;
       position: absolute;
       margin-top: 18px;
@@ -50,31 +55,32 @@
   }
 
   h2 {
-    color: #8d8d8d;
+    color: #4d88f3;
     margin-top: 20px;
     font-weight: 400;
-    font-size: 11px;
-    font-family: sans-serif;
-    letter-spacing: 3px;
+    font-size: 22px;
+    font-family: "Quicksand";
+    letter-spacing: 1px;
     animation: fadeIn 1s 1.8s backwards;
   }
 
   .flat-button {
-    color: #ffd700;
+    color: #4d88f3;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid #4d88f3;
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
+    font-family: "Quicksand";
 
     &:hover {
-      background: #ffd700;
+      background: #ffffff;
       color: #333;
     }
   }

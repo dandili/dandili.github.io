@@ -1,4 +1,4 @@
-$primary-color: #ffd700;
+$primary-color: #4d88f3;
 
 @import 'animate.css';
 @import '~loaders.css/src/animations/pacman.scss';
@@ -6,6 +6,13 @@ $primary-color: #ffd700;
 @font-face {
   font-family: 'Helvetica Neue';
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand Medium';
+  src: url('./assets/fonts/Quicksand-Medium.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
 }
