@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/dandili.github.io/react-portfolio-websiten/static/css/main.78c5bb0d.css",
-    "main.js": "/dandili.github.io/react-portfolio-websiten/static/js/main.0e3ad3b6.js",
-    "static/media/Quicksand-Medium.ttf": "/dandili.github.io/react-portfolio-websiten/static/media/Quicksand-Medium.eb896a79553a58953cbf.ttf",
-    "static/media/helvetica-neu.ttf": "/dandili.github.io/react-portfolio-websiten/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff": "/dandili.github.io/react-portfolio-websiten/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
-    "static/media/LaBelleAurore.woff2": "/dandili.github.io/react-portfolio-websiten/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff": "/dandili.github.io/react-portfolio-websiten/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
-    "static/media/CoolveticaRg-Regular.woff2": "/dandili.github.io/react-portfolio-websiten/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/dandili.github.io/react-portfolio-websiten/index.html",
-    "main.78c5bb0d.css.map": "/dandili.github.io/react-portfolio-websiten/static/css/main.78c5bb0d.css.map",
-    "main.0e3ad3b6.js.map": "/dandili.github.io/react-portfolio-websiten/static/js/main.0e3ad3b6.js.map"
+    "main.css": "/dandili.github.io/react-portfolio-website/static/css/main.f5dacb29.css",
+    "main.js": "/dandili.github.io/react-portfolio-website/static/js/main.0e3ad3b6.js",
+    "static/media/Quicksand-Medium.ttf": "/dandili.github.io/react-portfolio-website/static/media/Quicksand-Medium.eb896a79553a58953cbf.ttf",
+    "static/media/helvetica-neu.ttf": "/dandili.github.io/react-portfolio-website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff": "/dandili.github.io/react-portfolio-website/static/media/LaBelleAurore.9c5433c64baa43d1d274.woff",
+    "static/media/LaBelleAurore.woff2": "/dandili.github.io/react-portfolio-website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff": "/dandili.github.io/react-portfolio-website/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
+    "static/media/CoolveticaRg-Regular.woff2": "/dandili.github.io/react-portfolio-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/dandili.github.io/react-portfolio-website/index.html",
+    "main.f5dacb29.css.map": "/dandili.github.io/react-portfolio-website/static/css/main.f5dacb29.css.map",
+    "main.0e3ad3b6.js.map": "/dandili.github.io/react-portfolio-website/static/js/main.0e3ad3b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.78c5bb0d.css",
+    "static/css/main.f5dacb29.css",
     "static/js/main.0e3ad3b6.js"
   ]
 }
